@@ -1,3 +1,4 @@
+
 <!-- start: Top Menu -->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
@@ -8,10 +9,16 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="#">Vedanova</a>
-            <!--div class="nav-collapse collapse">
+            <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li class="dropdown">
+                    {% for link in page.navigation %}
+                      <li {% if page.url == link.url %}class="active"{% endif %}>
+                        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+                      </li>
+                    {% endfor %}
+                    <!--<li class="active"><a href="./index.html">Home</a></li>-->
+                    <!--<li class="active"><a href="./portfolio.html">Portfolio</a></li>-->
+                    <!--li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="./about.html">
                             Services</a>
                         <ul class="dropdown-menu">
@@ -58,9 +65,9 @@
                         </ul>
                     </li>
                     <li><a href="./contact.html">Contacts</a></li>
-                    <li><a href="#">DE</a></li>
+                    <li><a href="#">DE</a></li-->
                 </ul>
-            </div-->
+            </div>
         </div>
     </div>
 </div>
