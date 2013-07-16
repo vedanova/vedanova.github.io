@@ -7,9 +7,17 @@
                 <div class="widget-inner">
                     <address>
                         <ul class="icons">
-                            <li><i class="icon-map-marker"></i>Elsterweg 3, 6850 Dornbirn</li>
-                            <li><i class="icon-phone"></i>+43 (0) 680 1429277</li>
-                            <li><i class="icon-envelope"></i>info(-at-)vedanova.com</li>
+                            <li>
+                              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                                <i class="icon-map-marker"></i><span itemprop="streetAddress">Elsterweg 3</span>,
+                                <span itemprop="postalCode">6850</span>
+                                <span itemprop="addressLocality">Dornbirn</span><br>
+                                <span itemprop="addressRegion">Vorarlberg</span>,
+                                <span itemprop="addressCountry">Austria</span>
+                              </div>
+                            </li>
+                            <li><i class="icon-phone"></i><span itemprop="telephone">+43 (0) 680 1429277</span></li>
+                            <li><i class="icon-envelope"></i><span itemprop="email">info(-at-)vedanova.com</span></li>
                         </ul>
                     </address>
                     <!--<p><a href="./contact.html" class="btn btn-primary">Get in Touch</a></p>-->
@@ -52,18 +60,25 @@
                 </div-->
             </div>
             <div class="span4">
-              <h3 class="widget-title">Imprint</h3>
-                <div class="widget-inner">
-                        <p>Vedanova e.U.<br>
-                            Dipl. Ing (FH) Mag. Christoph Klocker<br>
-                            Elsterweg 3<br>
-                            6850 Dornbirn<br>
-                            Vorarlberg, Österreich
+                <h3 class="widget-title">Imprint</h3>
 
-                            <br>
-                            <br>
+                <div class="widget-inner">
+                    <div itemscope itemtype="http://schema.org/Organization">
+                        <p><span itemprop="name">Vedanova e.U.</span><br>
+                            <span itemprop="member" itemscope itemtype="http://schema.org/Organization">Dipl. Ing (FH) Mag. Christoph Klocker</span><br>
+
+                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                            <span itemprop="streetAddress">Elsterweg 3</span>,
+                            <span itemprop="postalCode">6850</span>
+                            <span itemprop="addressLocality">Dornbirn</span><br>
+                            <span itemprop="addressRegion">Vorarlberg</span>,
+                            <span itemprop="addressCountry">Austria</span>
+                        </div>
+                        <br>
+                        <br>
                         FN 361769 p LG Feldkirch<br>
                         Ust-IdNr.: ATU66426129</p>
+                    </div>
                 </div>
             </div>
         </div>
