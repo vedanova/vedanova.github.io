@@ -6,3 +6,5 @@ gem 'jekyll'
 
 gem 'compass'
 gem 'sass'
+gem 'guard'
+gem 'guard-livereload'
