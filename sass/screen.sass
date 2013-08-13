@@ -3,7 +3,18 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "../css/bootstrap";
-@import "../css/style";
-@import "../css/prettyPhoto";
-@import "../css/font-awesome";
+@import "../css/bootstrap"
+@import "../css/style"
+@import "../css/prettyPhoto"
+@import "../css/font-awesome"
+
+$flags-sprite-dimensions: true
+@import "flags/*.png"
++all-flags-sprites
+
+
+.lang
+  display: inline-block
+  padding-right: 3px
+#lang-dropdown
+  min-width: 40px
