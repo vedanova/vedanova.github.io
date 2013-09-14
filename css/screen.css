@@ -14011,13 +14011,28 @@ ul.icons li [class*=" icon-"] {
   width: 16px;
 }
 
-/* line 16, ../sass/screen.sass */
+/* line 15, ../sass/screen.sass */
 .lang {
   display: inline-block;
   padding-right: 3px;
 }
 
-/* line 19, ../sass/screen.sass */
+/* line 18, ../sass/screen.sass */
 #lang-dropdown {
   min-width: 40px;
+}
+
+/* line 22, ../sass/screen.sass */
+.text-left {
+  text-align: left;
+}
+
+/* line 25, ../sass/screen.sass */
+.text-right {
+  text-align: right;
+}
+
+/* line 28, ../sass/screen.sass */
+.text-center {
+  text-align: center;
 }
