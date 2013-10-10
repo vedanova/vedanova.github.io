@@ -1,1 +1,3 @@
 compass watch .
+jekyll serve --watch
+
