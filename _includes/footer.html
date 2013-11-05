@@ -4,21 +4,25 @@
         <div class="row">
             <div class="span4">
                 <h3 class="widget-title">Address</h3>
+
                 <div class="widget-inner" itemscope itemtype="http://schema.org/Organization">
-                    <address  itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <address itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                         <ul class="icons-ul">
                             <li><i class="icon-li icon-name"></i>Vedanova</li>
                             <li>
-                              <div>
-                                <i class="icon-li icon-map-marker"></i><span itemprop="streetAddress">Elsterweg 3</span>,
-                                <span itemprop="postalCode">6850</span>
-                                <span itemprop="addressLocality">Dornbirn</span><br>
-                                <span itemprop="addressRegion">Vorarlberg</span>,
-                                <span itemprop="addressCountry">Austria</span>
-                              </div>
+                                <div>
+                                    <i class="icon-li icon-map-marker"></i><span
+                                        itemprop="streetAddress">Elsterweg 3</span>,
+                                    <span itemprop="postalCode">6850</span>
+                                    <span itemprop="addressLocality">Dornbirn</span><br>
+                                    <span itemprop="addressRegion">Vorarlberg</span>,
+                                    <span itemprop="addressCountry">Austria</span>
+                                </div>
                             </li>
-                            <li><i class="icon-li icon-phone"></i><span itemprop="telephone">+43 (0) 680 1429277</span></li>
-                            <li><i class="icon-li icon-envelope"></i><span itemprop="email">info(-at-)vedanova.com</span></li>
+                            <li><i class="icon-li icon-phone"></i><span itemprop="telephone">+43 (0) 680 1429277</span>
+                            </li>
+                            <li><i class="icon-li icon-envelope"></i><span
+                                    itemprop="email">info(-at-)vedanova.com</span></li>
                         </ul>
                     </address>
                     <!--<p><a href="./contact.html" class="btn btn-primary">Get in Touch</a></p>-->
@@ -46,8 +50,10 @@
             </div>
             <div class="span4">
                 <h3 class="widget-title">About Us</h3>
+
                 <div class="widget-inner">
-                    <p>Vedanova is a software consultancy that designs and develops custom applications. We guide our client from the start of an idea to the final implementation.</p>
+                    <p>Vedanova is a software consultancy that designs and develops custom applications. We guide our
+                        client from the start of an idea to the final implementation.</p>
                 </div>
                 <!--h3 class="widget-title">Stay Updated</h3>
                 <div class="widget-inner">
@@ -61,26 +67,17 @@
                 </div-->
             </div>
             <div class="span4">
-                <h3 class="widget-title">Imprint</h3>
+                <h3 class="widget-title">Blog</h3>
 
-                <div class="widget-inner">
-                    <div itemscope itemtype="http://schema.org/Organization">
-                        <p><span itemprop="name">Vedanova e.U.</span><br>
-                            <span itemprop="member" itemscope itemtype="http://schema.org/Organization">Dipl. Ing (FH) Mag. Christoph Klocker</span><br>
+                <ul class="icons-ul lates-blog-post">
+                    {% for post in site.posts %}
+                    <li>
+                        <i class="icon-li icon-chevron-right"></i><a href="{{ post.url }}">{{ post.title }}</a>
 
-                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                            <span itemprop="streetAddress">Elsterweg 3</span>,
-                            <span itemprop="postalCode">6850</span>
-                            <span itemprop="addressLocality">Dornbirn</span><br>
-                            <span itemprop="addressRegion">Vorarlberg</span>,
-                            <span itemprop="addressCountry">Austria</span>
-                        </div>
-                        <br>
-                        <br>
-                        FN 361769 p LG Feldkirch<br>
-                        Ust-IdNr.: ATU66426129</p>
-                    </div>
-                </div>
+                        <p>{{ post.excerpt_short }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
             </div>
         </div>
     </div>
