@@ -61,29 +61,28 @@
                 </div-->
             </div>
             <div class="span4">
-                <h3 class="widget-title">Impressum</h3>
+                <h3 class="widget-title">Blog</h3>
 
-                <div class="widget-inner">
-                    <div itemscope itemtype="http://schema.org/Organization">
-                        <p><span itemprop="name">Vedanova e.U.</span><br>
-                            <span itemprop="member" itemscope itemtype="http://schema.org/Organization">Dipl. Ing (FH) Mag. Christoph Klocker</span><br>
-
-                        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                            <span itemprop="streetAddress">Elsterweg 3</span>,
-                            <span itemprop="postalCode">6850</span>
-                            <span itemprop="addressLocality">Dornbirn</span><br>
-                            <span itemprop="addressRegion">Vorarlberg</span>,
-                            <span itemprop="addressCountry">Austria</span>
-                        </div>
-                        <br>
-                        <br>
-                        FN 361769 p LG Feldkirch<br>
-                        Ust-IdNr.: ATU66426129</p>
-                    </div>
-                </div>
+                <ul class="icons-ul lates-blog-post">
+                    {% for post in site.posts %}
+                        <li>
+                            <i class="icon-li icon-chevron-right"></i><a href="{{ post.url }}">{{ post.title }}</a>
+                          <p>{{ post.excerpt_short }}</p>
+                        </li>
+                      {% endfor %}
+                    <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Lorem ipsum dolor sit amet</a><br>Aliquam nunc erat, suscipit molestie interdum eget, molestie vel eros.</li>-->
+                    <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Quisque hendrerit nisl vitae magna </a><br>Aenean a sapien in magna luctus aliquet in eu purus. Sed venenatis luctus varius.</li>-->
+                    <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Aenean gravida tincidunt velit nec congue </a><br>Sed a rhoncus mi. Morbi eu elit sapien, eu adipiscing nisl. Duis in turpis et mi molestie bibendum eget eget mauris.</li>-->
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span12 pull-center">
+                <span> Copyright © Vedanova <a href="/impressum.html">Impressum</a> </span>
             </div>
         </div>
     </div>
+
 </footer>
 <!-- end: Footer -->
 {% include google_analytics.html %}
