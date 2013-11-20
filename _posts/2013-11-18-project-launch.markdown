@@ -5,7 +5,7 @@ date:   2013-11-20 21:31:25
 categories: tech development projects
 tags: paas aws
 published: true
-excerpt_short:
+excerpt_short: Launch of FME Cloud
 author: Christoph Klocker
 ---
 
