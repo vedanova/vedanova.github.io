@@ -2,17 +2,18 @@
 layout: post
 title:  "Project Launch - Integration Platform As A Service (iPAAS)"
 date:   2013-11-20 21:31:25
-categories: tech development projects
+categories: projects
 tags: paas aws
 published: true
 excerpt_short: Launch of FME Cloud
 author: Christoph Klocker
+blog_image: fmecloud-blog-banner.jpg
 ---
 
-Last wednesday was an exciting day for me, the project I was working on for the last 6 months finally went live. It was not
-just any other project, but a so called iPAAS (Integration Platform AS A Service), and I was the responsible Software / Infrastructure
-Architect. At the same I had the opportunity to introduce the agile methodologies I've been using over the last two years,
-into the company through this project.
+Last wednesday, the project I was working on for the last 6 months finally went live. It was not
+just any other project, but we have launched a so called iPAAS (Integration Platform AS A Service). I was the responsible Software / Infrastructure
+Architect and the main developer of the Rails stack. At the same I had the opportunity to introduce the agile methodologies I've been using over the last two years,
+to the company through this project.
 
 Together, in an awesome team of 4 we brought the iPAAS to life.
 

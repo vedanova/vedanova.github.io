@@ -14772,7 +14772,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   padding-right: 3px;
 }
 
-/* line 18, ../sass/screen.sass */
+/* line 19, ../sass/screen.sass */
 #lang-dropdown {
   min-width: 40px;
 }
@@ -14790,4 +14790,9 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 28, ../sass/screen.sass */
 .text-center {
   text-align: center;
+}
+
+/* line 31, ../sass/screen.sass */
+#footer .social li {
+  padding: 0 3px;
 }

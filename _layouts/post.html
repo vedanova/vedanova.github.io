@@ -15,6 +15,17 @@ layout: default_de
                 <h3 class="post-title" itemprop="name headline">{{ page.title }}</h3>
 
                 <div class="blog-post-inner">
+                    {% if page.blog_image %}
+                    <div class="post-media">
+                     <div id="mainslider" class="flexslider ps-slider">
+                        <div class="flex-viewport" style="overflow: hidden; position: relative; height: 356px;">
+                        <ul class="slides" style="width: 800%; margin-left: 0px;">
+                                <li style="width: 750px; float: left; display: block;" class="flex-active-slide"><img src="/images/fmecloud-blog-banner.jpg" alt=""></li>
+                        </ul>
+                        </div>
+                        </div>
+                    </div>
+                    {% endif %}
                     <div class="post-content" itemprop="articleBody">
                         <div class="row-fluid">
                             <ul class="post-meta">
