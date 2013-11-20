@@ -60,6 +60,25 @@ layout: default_de
                 </div>
             </section>
             <!-- end: Tag Cloud -->
+
+            <!-- start: popular posts-->
+            <section class="widget popular-posts">
+
+                            <h3 class="widget-title">Popular Posts</h3>
+                {% for post in site.posts %}
+                            <div class="widget-inner">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h4 class="media-heading"><a href="./blog-single.html">{{ post.title }}</a></h4>
+                                        <p>{{ post.excerpt_short}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                {% endfor %}
+
+                        </section>
+            <!-- end: popular posts-->
+
         </aside>
         <!-- end: Sidebar -->
 

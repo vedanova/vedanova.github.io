@@ -11,7 +11,7 @@ title: Blog | Vedanova
         <section id="page-sidebar" class="pull-left span8">
 
             <!-- start: posts-->
-        {% for post in site.posts %}
+            {% for post in site.posts %}
             <article class="blog-post">
                 <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
@@ -36,7 +36,7 @@ title: Blog | Vedanova
                 </div>
             </article>
             <!-- end: posts-->
-        {% endfor %}
+            {% endfor %}
         </section>
 
         <!-- end: Page section -->
@@ -49,14 +49,33 @@ title: Blog | Vedanova
                 <h3 class="widget-title">Tag Cloud</h3>
 
                 <div class="tags">
-                    <a href="#"><i class="icon-tag"></i>css</a>
-                    {% for tag in page.tags %}
-                    <a href="#"><i class="icon-tag"></i>{{ tag }}</a>
-
+                    {% for tag in site.tags %}
+                    <a href="#"><i class="icon-tag"></i>{{ tag | first }}</a>
                     {% endfor %}
                 </div>
             </section>
             <!-- end: Tag Cloud -->
+
+            <!-- start: popular posts-->
+            <section class="widget popular-posts">
+
+                <h3 class="widget-title">Popular Posts</h3>
+                {% for post in site.posts %}
+                <div class="widget-inner">
+                    <div class="media">
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="./blog-single.html">{{ post.title }}</a></h4>
+
+                            <p>{{ post.excerpt_short}}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+            </section>
+            <!-- end: popular posts-->
+
+
         </aside>
         <!-- end: Sidebar -->
 
