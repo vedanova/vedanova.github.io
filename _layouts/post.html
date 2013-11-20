@@ -11,22 +11,29 @@ layout: default_de
 
             <!-- start: posts-->
 
-            <article class="blog-post">
-                <h3 class="post-title">{{ page.title }}</h3>
+            <article class="blog-post" itemscope="" itemtype="http://schema.org/BlogPosting">
+                <h3 class="post-title" itemprop="name headline">{{ page.title }}</h3>
 
                 <div class="blog-post-inner">
-                    <div class="post-content">
+                    <div class="post-content" itemprop="articleBody">
                         <div class="row-fluid">
                             <ul class="post-meta">
                                 <li>
                                     <a href="#" class="post-meta-date">
-                                        <span class="line1">{{page.date | date_to_string}}</span>
+                                        <span class="line1" datetime="page.date" itemprop="datePublished">{{page.date | date_to_string}}</span>
                                     </a>
                                 </li>
                                 {% for category in page.categories %}
                                 <li><span class="post-meta-label"><i class="icon-tags"></i></span> <a
                                         href="#">{{category}}</a></li>
                                 {% endfor %}
+                                <li>
+                                  <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+
+                                        <a href="#"><i class="icon-user"> by <span itemprop="name">{{ page.author }}</span></i></a>
+
+                                 </span>
+                                </li>
                             </ul>
                             {{content}}
                         </div>
@@ -48,8 +55,8 @@ layout: default_de
                     <a href="#"><i class="icon-tag"></i>css</a>
                     {% for tag in page.tags %}
                     <a href="#"><i class="icon-tag"></i>{{ tag }}</a>
-
                     {% endfor %}
+
                 </div>
             </section>
             <!-- end: Tag Cloud -->

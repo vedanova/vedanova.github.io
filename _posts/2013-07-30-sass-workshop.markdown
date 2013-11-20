@@ -6,6 +6,7 @@ categories: tech development
 tags: sass
 published: true
 excerpt_short: Middle of July I was invited to hold a workshop on working with SASS for a local company.
+author: Christoph Klocker
 ---
 
 Middle of July I was invited to hold a workshop on working with SASS for a local company. For those of you who don't
