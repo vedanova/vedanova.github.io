@@ -12,7 +12,7 @@ blog_image: fmecloud-blog-banner.jpg
 
 Last wednesday, the project I was working on for the last 6 months finally went live. It was not
 just any other project, but we have launched a so called iPAAS (Integration Platform AS A Service). I was the responsible Software / Infrastructure
-Architect and the main developer of the Rails stack. At the same I had the opportunity to introduce the agile methodologies I've been using over the last two years,
+Architect and the main developer of the Rails stack. At the same time I had the opportunity to introduce the agile methodologies I've been using over the last two years,
 to the company through this project.
 
 Together, in an awesome team of 4 we brought the iPAAS to life.
