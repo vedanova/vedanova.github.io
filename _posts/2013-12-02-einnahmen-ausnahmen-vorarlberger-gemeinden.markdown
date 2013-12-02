@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Einnahmen - Ausgaben vorarlberger Gemeinden"
+title:  "Einnahmen - Ausgaben vorarlberger Gemeinden 2011"
 date:   2013-12-02 20:30
 categories: projects
 tags: osm open-data
