@@ -15,7 +15,7 @@ wäre interessant gewisse Daten auf einer Karte zu veröffentlichen. Ich wusste 
 da verwenden möchte und habe mich mal umgeschaut. Leider musste ich feststellen, dass es gar nicht so einfach ist, einfach zu
 verwendende Daten zu finden.
 
-Leider sind die Daten "schlecht" aufbereitet, bzw sind diese zum Teil gar nicht aufbereitet (Excel Sheets mit mehreren Tabellen)
+Leider sind die Daten oft "schlecht" aufbereitet, bzw sind diese zum Teil gar nicht aufbereitet (Excel Sheets mit mehreren Tabellen)
 oder werden über ein Uralt-System (Cognos) zur Verfügung gestellt, d.h. es ist nicht einfach die Daten, ohne größeren Aufwand,
 automatisiert weiter zu verarbeiten.
 
