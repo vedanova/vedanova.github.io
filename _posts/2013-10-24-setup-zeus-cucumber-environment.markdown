@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Setup Zeus for Cucumber Environment  1
+title: Setup Zeus for Cucumber Environment
 author: admin
 author_login: admin
 author_email: you@yourdomain.com
