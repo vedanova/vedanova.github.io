@@ -1,67 +1,401 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>
+            http://vedanova.com/startup/2010/06/06/how-do-you-compete-with-the-big-guys.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/startup/2010/08/30/what-if-it-doesnt-work-out.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/2010/08/30/better-seo-with-permalinks.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tools/productivity/2010/09/02/mindmapping-planing-and-visualizing-before-executing.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tools/productivity/rails/2010/09/07/netbeans-haml-plugin.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/2010/09/08/dropbox-kubuntu-kde.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2010/09/08/connect-facebook-rails-fbgraph.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/2010/09/15/brother-dcp-7030-running-ubuntu.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2010/09/29/rails-flash-now.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/rails/2010/09/30/misleading-incompatible-character-encodings-ascii-8bit-utf-8-message.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2010/10/06/rails-partial-form-form_for.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/ubuntu/2010/10/08/better-performance-ubuntu-swapping.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/android/apps/2010/10/13/send-notifications-android-desktop-android-notifier.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/android/apps/2010/10/14/stop-expensive-data-roaming-android.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/2010/10/18/install-postgis-1-5-ubuntu-maverik-10-10.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/gps/2010/11/08/edit-gpx-gps-track.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/rails/2010/11/24/chrome-chromium-calling-controller.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/rails/2010/11/24/invalid-multibyt-escape-aws-s3-gem-ruby-1-9-2.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/aws/2010/11/28/simple-script-creating-snapshots-ebs-volume-keeping-number.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/rails/ubuntu/2010/12/13/gem-install-pg-error-failed-build-gem-native-extension.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tools/productivity/rails/2011/01/12/livereload-webdevelopers-friend.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/thoughts/2011/01/18/motorola-atrix-future-personal-computing.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/ubuntu/2011/01/20/dual-monitor-configuration-kubuntu-kde.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/01/30/rails-3-ruby-1-9-2-netbeans-6-9.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/02/03/parsing-custom-date_select-controller.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/thoughts/2011/02/08/exclude-domain-parking-websites-google-adwords.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/tech/rails/aws/2011/02/09/set-git-repository-ec2-instance-deployment-backup.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/03/01/expire-page-model-rails.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/android/2011/03/15/android-devices-os-version-austria.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/startup/2011/03/18/social-campaigns-startup-create-monitor-evaluate-social-network-activities-facebook-twitter.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/2011/07/21/xpaths-preceding-jquery.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/09/14/post-https-page-https-controller.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/10/18/check-checkbox-cucumber-capybara.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/ubuntu/2011/10/28/install-skype-ubuntu-11-10.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2011/11/04/accept-prompt-dialogs-cucumber.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/2011/11/06/argumenterror-syck-missing-constant-badalias.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2011/11/07/upgrading-breadcrumbs-rails-3.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/cucumber/2011/11/21/stub-willpaginatecollection.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/2011/12/12/slow-queries-generated-active-record-uniquness-check.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/2012/01/25/kde-turn-notifications-nepomuk.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/aws/2012/03/26/rake-task-bundle-upload-ec2-ami.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/uncategorized/2012/06/07/set-file-permissions-qnap-server-access.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/2012/06/08/page-temporarily-unavailable-later-nginx.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/uncategorized/2012/07/16/modularising-rails-code.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/uncategorized/2012/08/02/rspec-stub-outgoing-requests.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/uncategorized/2012/08/07/unobstrusive-javascript-jquery.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2012/10/24/debugging-rails-ruby-1-9-3.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2012/10/24/free-bootstrap-icon-extension.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2012/10/25/quickly-started-rails-composer.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/uncategorized/2012/10/25/add-user-postgres-ubuntu.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2012/10/30/open-page-after-failed-step-cucumber.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2012/11/05/return-geojson-default-rgeo.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2012/11/30/cucumber-mouse-click-page-like-map.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/cucumber/2012/12/17/render-error-pages-cucumber.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/rails/2013/01/14/returning-400-multijsondecode-error.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/2013/01/23/devise-issue-confirmation-errors-login.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/2013/03/28/set-maximum-number-attempts-job-delayed-job.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/cucumber/2013/04/08/cucumber-set-vcr-ignore-session-requests.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2013/04/09/fix-cucumber-unresponsive-script-errors.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/tech/development/2013/07/30/sass-workshop.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2013/08/02/run-rake-tasks-cucumber-rspec.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/rails/cucumber/2013/10/24/setup-zeus-cucumber-environment.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/ubuntu/2013/11/05/printer-cutting-top-page-brother.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/projects/2013/11/20/project-launch.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://vedanova.com/projects/2013/12/02/einnahmen-ausnahmen-vorarlberger-gemeinden.html
+        </loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://vedanova.com/about.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/</loc>
-        <lastmod>2013-10-10T21:16:18+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/portfolio.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/en/</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/portfolio.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/housetrip.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/breadcrumbs.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/fme-cloud.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/geolaunch.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/en/services.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/unternehmen.html</loc>
-        <lastmod>2013-10-10T21:16:18+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/leistungen.html</loc>
-        <lastmod>2013-10-10T21:35:06+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/housetrip.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/impressum.html</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/breadcrumbs.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vedanova.com/blog/blog/</loc>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/echtzeit-loesungen.html</loc>
-        <lastmod>2013-10-10T21:35:36+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/fme-cloud.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
     <url>
         <loc>http://vedanova.com/geolaunch.html</loc>
-        <lastmod>2013-10-10T21:15:48+02:00</lastmod>
+        <lastmod>2013-12-09T21:58:00+01:00</lastmod>
     </url>
 </urlset>
