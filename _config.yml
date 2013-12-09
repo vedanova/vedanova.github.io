@@ -2,12 +2,10 @@ name: Vedanova
 pygments: true
 excerpt_separator: "\n\n"
 paginate: 5
-paginate_files:
- - blog.html
+paginate_path: blog/page:num
 
 #gems: [jekyll-pagination]
 
-name: Vedanova
 url: http://vedanova.com
 author: Christoph Klocker
 rss_post_limit: 15

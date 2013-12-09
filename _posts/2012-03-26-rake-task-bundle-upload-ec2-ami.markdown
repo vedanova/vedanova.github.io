@@ -15,4 +15,7 @@ categories:
 tags:
 - ec2
 ---
+
+Below is a gist that allows to bundle and upload an EC2 AMI
+
 <script src="https://gist.github.com/2203135.js?file=create_and_upload_ami"></script>

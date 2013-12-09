@@ -15,10 +15,9 @@ tags:
 - dcp-7030
 - brother
 ---
+
 I am using a Brother Printer (DCP-7030) on Linux and have set it up using the drivers from the brother page. See my guide <a href="http://blog.vedanova.com/2010/09/15/brother-dcp-7030-running-ubuntu/">here</a>.
 Unfortunately for some reason the top of the page is cut off when printing a page. After trying to set all settings in the printer configurations, nothing worked. After googling around I found a thread that helped me to fix it.
-
-
 
 Open up your driver configuration
 

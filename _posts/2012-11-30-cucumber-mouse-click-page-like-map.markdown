@@ -37,6 +37,7 @@ First you will need to extend cucumber (capybara). Create the click at functiona
     end
 
 Then implement the step
+
     And /^I click inside the map to trigger the event$/ do
       find("#map").click_at(50, 50)
     end

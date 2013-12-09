@@ -20,7 +20,5 @@ Today I had to stub a WillPaginate::Collection for my cucumber tests. It's prett
 All you need to do is to call ".paginate" on a collection (Array).
 So for me it was as easy as
 
-<pre>
-Property.should_receive(:paginate).and_return([@property].paginate)
-</pre>
+    Property.should_receive(:paginate).and_return([@property].paginate)
 

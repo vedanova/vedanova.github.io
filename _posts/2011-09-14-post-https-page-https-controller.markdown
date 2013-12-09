@@ -19,6 +19,5 @@ tags:
 Just had the problem of posting to an HTTPS controller from within a normal page using the form_for helper
 
 Here is how I solved it
-<pre>
-form_for [:admin, @property_edit], :url => admin_property_property_edit_url([:admin, @property_edit], :protocol => 'https'), :html => {:id => 'property_edit'}
-</pre>
+
+    form_for [:admin, @property_edit], :url => admin_property_property_edit_url([:admin, @property_edit], :protocol => 'https'), :html => {:id => 'property_edit'}

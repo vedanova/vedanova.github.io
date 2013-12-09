@@ -21,7 +21,7 @@ Just had to debug where one query that took up to 5 seconds on production came f
 The problem with this query is, that is it is not using an index and it cannot use an index because of the "LOWER" statement.
 The query was caused by the Active Record by the validates_uniqueness_of validation
 
-validates_uniqueness_of   :email, :case_sensitive => false
+    validates_uniqueness_of   :email, :case_sensitive => false
 
 and is/was a long outstanding issue. Still in Rails 2.3.12 it is causing this query.
 

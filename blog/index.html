@@ -1,0 +1,63 @@
+---
+layout: default_de
+title: Blog | Vedanova
+
+---
+
+<div class="row">
+
+    <!-- start: Page section -->
+    <section id="page-sidebar" class="pull-left span8">
+
+        <!-- start: posts-->
+        {% for post in paginator.posts %}
+        <article class="blog-post">
+            <h3 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+
+            <div class="blog-post-inner">
+                <div class="post-content">
+                    <div class="row-fluid">
+                        <ul class="post-meta">
+                            <li>
+                                <a href="#" class="post-meta-date">
+                                    <span class="line1">{{post.date | date_to_string}}</span>
+                                </a>
+                            </li>
+                            {% for category in post.categories %}
+                            <li><span class="post-meta-label"><i class="icon-tags"></i></span> <a
+                                    href="#">{{category}}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {{post.excerpt}}
+                        <a href="{{post.url}}">read more</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- end: posts-->
+        {% endfor %}
+
+        <!-- Pagination links -->
+        <div class="pagination">
+            {% if paginator.previous_page %}
+            <a href="/blog/page{{ paginator.previous_page }}" class="previous">Previous</a>
+            {% else %}
+            <span class="previous">Previous</span>
+            {% endif %}
+            <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+            <a href="/blog/page{{ paginator.next_page }}" class="next">Next</a>
+            {% else %}
+            <span class="next ">Next</span>
+            {% endif %}
+        </div>
+    </section>
+
+    <!-- end: Page section -->
+
+    {% include blog_sidebar.html %}
+
+</div>
+
+
+</div>

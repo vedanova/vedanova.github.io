@@ -24,14 +24,15 @@ What does it do? Android Notifier sends notifications like new SMS / MMS, low ba
 So to set it up just follow the instructions on the wiki page or do like this on (K)Ubuntu
 
 Add this to your /etc/apt/sources.list
-<pre>deb http://android-notifier-desktop.googlecode.com/svn/deb-repo stable main</pre>
-<pre>
-sudo apt-get update
-sudo apt-get install android-notifier-desktop
-</pre>
+
+    deb http://android-notifier-desktop.googlecode.com/svn/deb-repo stable main
+
+    sudo apt-get update
+    sudo apt-get install android-notifier-desktop
+
 Start the Android desktop notifier.
 to get Wifi working I had to open the port
-<pre>
-sudo ufw allow 10600/udp
-</pre>
+
+    sudo ufw allow 10600/udp
+
 Try it out using the 'Send test notification' on the Android App

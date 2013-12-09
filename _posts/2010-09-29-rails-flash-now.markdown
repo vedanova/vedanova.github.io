@@ -17,12 +17,12 @@ tags:
 - flash
 - redirect_to
 ---
-Rails' Flash is a great way to pass notifications from a controller to a view while redirecting. 
+Rails' Flash is a great way to pass notifications from a controller to a view while redirecting.
 I just came accross the Flash.now and couldn't remember when to use Flash.now.
 
 Simply you use
 
-Flash for redirecting: 
+Flash for redirecting:
 <pre>flash[:notice] = 'You successfully signed up'</pre>
 
 and Flash.now for rendering immediatly

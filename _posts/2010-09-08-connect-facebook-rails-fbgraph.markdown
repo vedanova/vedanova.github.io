@@ -35,15 +35,15 @@ First create a database migration to add the Facebook user id and access token t
 
 and add this code
 
-      def self.up
-        add_column :users, :fb_user_id, :integer, :limit =&gt; 8
-        add_column :users, :fb_access_token, :string
-      end
+    def self.up
+      add_column :users, :fb_user_id, :integer, :limit =&gt; 8
+      add_column :users, :fb_access_token, :string
+    end
 
-      def self.down
-        remove_column :users, :fb_user_id
-        remove_column :users, :fb_access_token
-      end
+    def self.down
+      remove_column :users, :fb_user_id
+      remove_column :users, :fb_access_token
+    end
 
 
 Next create a controller that handles the authentication.
@@ -53,16 +53,16 @@ Next create a controller that handles the authentication.
 
 In the controller add following code
 
-  def start
-   redirect_to client.authorization.authorize_url(:redirect_uri => "http://request.env['HTTP_HOST']/fb_oauth/callback/" ,
-      :client_id => FACEBOOK_SETTINGS['app_id'],:scope => 'email')
-  end
+    def start
+     redirect_to client.authorization.authorize_url(:redirect_uri => "http://request.env['HTTP_HOST']/fb_oauth/callback/" ,
+        :client_id => FACEBOOK_SETTINGS['app_id'],:scope => 'email')
+    end
 
-  def callback
-    @access_token = client.authorization.process_callback(params[:code], :redirect_uri =&gt; "http://request.env['HTTP_HOST']/fb_oauth/callback/")
-    session[:access_token] = @access_token
-    @fb_user = client.selection.me.info!
-  end
+    def callback
+      @access_token = client.authorization.process_callback(params[:code], :redirect_uri =&gt; "http://request.env['HTTP_HOST']/fb_oauth/callback/")
+      session[:access_token] = @access_token
+      @fb_user = client.selection.me.info!
+    end
 
 Start action is invoked first. This redirects the user to Facebook where the user gets the permission prompt, to allow your application to access the users information. The client_id is your application's ID, the redirect_uri is the URL that is called after the user (hopefully) allows your app to access his information. Scope defines what information you want to access. Less is more ;).
 

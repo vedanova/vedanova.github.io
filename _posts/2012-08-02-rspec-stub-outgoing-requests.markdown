@@ -14,6 +14,7 @@ categories:
 tags: []
 ---
 If you want to stub outgoing requests (and do not care about the response) use Webmock and stub it like below:
-<pre>  stub_request(:any, /googleadservices\.com/)</pre>
-for more examples how to stub the response read the
-<a href="https://github.com/bblimke/webmock/">documentation</a>
+
+    stub_request(:any, /googleadservices\.com/)
+
+for more examples how to stub the response read the <a href="https://github.com/bblimke/webmock/">documentation</a>

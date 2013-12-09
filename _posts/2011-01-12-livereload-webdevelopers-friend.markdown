@@ -28,7 +28,9 @@ Applies CSS and JavaScript file changes without reloading a page.
 Automatically reloads a page when any other file changes (html, image, server-side script, etc).
 
 Installations is as easy as
-<pre>sudo gem install rb-inotify livereload</pre>
+
+    sudo gem install rb-inotify livereload
+
 more information is found on the official <a href="http://https://github.com/mockko/livereload">Github repo</a>
 
 

@@ -20,7 +20,7 @@ tags:
 ---
 As I have now spent a second time 2 hours to google this error message and messed around figureing out why this happens I have to write it down.
 
-In my situation I tried to import a set of data a got through the Facebook Graph Api using fbgraph. My database is postgres. 
+In my situation I tried to import a set of data a got through the Facebook Graph Api using fbgraph. My database is postgres.
 
 I had a second time the read on Yehuda Katz' blog about Ruby 1.9 and its character encoding (great <a href="http://yehudakatz.com/2010/05/05/ruby-1-9-encodings-a-primer-and-the-solution-for-rails/">read</a> btw), however didn't really help me.
 

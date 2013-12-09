@@ -13,9 +13,9 @@ categories:
 - Uncategorized
 tags: []
 ---
-<pre>
-[~] # /sbin/set_volume_mode Qmultimedia
-Volume: Qmultimedia
-Path: /share/HDA_DATA/Qmultimedia
-Set directory mode to 777 and file mode to 666
-</pre>
+Note to myself on how to set file permissions on a Qnap server
+
+    [~] # /sbin/set_volume_mode Qmultimedia
+    Volume: Qmultimedia
+    Path: /share/HDA_DATA/Qmultimedia
+    Set directory mode to 777 and file mode to 666

@@ -23,18 +23,16 @@ System Settings -> Desktop Search -> Basic Settings, unticked Nepomuk and Strigi
 
 This turned off Nepomuk, however I still got following notifications:
 
-<pre>
-Nepomuk Indexing Disabled
-Nepomuk Indexing Agnets Have Been Disabled
-The Nepomuk service is not available or fully operational and attempts to rectify this have failed. Theref...
+    Nepomuk Indexing Disabled
+    Nepomuk Indexing Agnets Have Been Disabled
+    The Nepomuk service is not available or fully operational and attempts to rectify this have failed. Theref...
 
-The following problems were detected:
+    The following problems were detected:
 
-- Nepomuk not running.
+    - Nepomuk not running.
 
-Additional help can be found here:
-userbase.kde.org/Akonadi
-</pre>
+    Additional help can be found here:
+    userbase.kde.org/Akonadi
 
 Googling around I found a forum thread that suggested to disable notifactions of the task bar calendar.
 

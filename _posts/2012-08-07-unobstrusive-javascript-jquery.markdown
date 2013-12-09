@@ -16,21 +16,19 @@ tags:
 - unobstrusive
 ---
 Unobstrusive JS is the way to go, no question about it. I was just bothered to always write
-<pre>
-$(document).ready(function() {
-   // put all your jQuery goodness in here.
- });
-</pre>
+
+    $(document).ready(function() {
+       // put all your jQuery goodness in here.
+     });
+
 so after a while I found out there is a short cut for that
-<pre>
-$(function() {
-// do something on document ready
-});
-</pre>
+
+    $(function() {
+    // do something on document ready
+    });
 
 even better seems to be to do it the <a href="http://stackoverflow.com/questions/5721372/what-purpose-does-generating-a-closure-inside-of-the-document-ready-functio">closure way,</a> to avoid conflicts
-<pre>
-(function($) {
-    // Plugin code...
-})(jQuery);
-</pre>
+
+    (function($) {
+        // Plugin code...
+    })(jQuery);

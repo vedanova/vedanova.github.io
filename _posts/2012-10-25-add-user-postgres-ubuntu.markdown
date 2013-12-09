@@ -15,8 +15,7 @@ tags:
 - postgres
 ---
 Quick writeup on how to create a new user on postgresql
-<pre>
-sudo -u postgres createuser --superuser $USER
-sudo -u postgres psql
-postgres=# \password $USER
-</pre>
+
+    sudo -u postgres createuser --superuser $USER
+    sudo -u postgres psql
+    postgres=# \password $USER

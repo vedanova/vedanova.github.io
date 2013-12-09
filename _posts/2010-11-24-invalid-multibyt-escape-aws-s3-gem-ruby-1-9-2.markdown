@@ -18,6 +18,9 @@ tags:
 - s3
 ---
 If you get following error using the aws-s3 gem (I am using it with paperclip to serve my images from S3)
-<pre>gems/aws-s3-0.6.2/lib/aws/s3/extensions.rb:84: invalid multibyte escape: /[\x80-\xFF]/</pre>
+
+    gems/aws-s3-0.6.2/lib/aws/s3/extensions.rb:84: invalid multibyte escape: /[\x80-\xFF]/
+
 Add the following as the first line of <code>lib/aws/s3/extensions.rb</code>:
-<pre># encoding: BINARY</pre>
+
+    # encoding: BINARY

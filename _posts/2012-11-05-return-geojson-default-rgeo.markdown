@@ -16,6 +16,4 @@ tags:
 ---
 RGeo by default renders spatial columns in WKT. To switch it to GeoJSON, set this in an initializer:
 
-<pre>
-RGeo::ActiveRecord::GeometryMixin.set_json_generator(:geojson)
-</pre>
+    RGeo::ActiveRecord::GeometryMixin.set_json_generator(:geojson)

@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem 'github-pages', github: "github/pages-gem"
 
 
-#gem 'compass'
-#gem 'sass'
-#gem 'guard'
-#gem 'guard-livereload'
+gem 'compass'
+gem 'sass'
+gem 'guard'
+gem 'guard-livereload'

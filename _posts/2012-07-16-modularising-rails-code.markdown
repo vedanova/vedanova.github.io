@@ -14,10 +14,9 @@ categories:
 tags: []
 ---
 There are a few ways of modularising your code. Here are some ways how I currently do it.
-<pre>
+
 Gem modularity: https://github.com/makandra/modularity
-</pre>
-<pre>
+
 Active Support::Concern: http://api.rubyonrails.org/classes/ActiveSupport/Concern.html
-</pre>
+
 ... watch the <a href="http://37signals.com/svn/posts/3205-go-code-spelunking-with-me-in-the-all-new">37signals video</a> on how they do it

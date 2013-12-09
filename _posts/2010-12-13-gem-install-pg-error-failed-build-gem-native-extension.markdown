@@ -16,9 +16,9 @@ categories:
 - ubuntu
 tags: []
 ---
-Once again I ran into this issue after updateing my gems using 'bundle update' on my Kubuntu 10.10 system. 
+Once again I ran into this issue after updateing my gems using 'bundle update' on my Kubuntu 10.10 system.
 after a bit of browsing I came across a post that suggested to install some additional libraries.
 Installing these libs solved the problem
 
-<pre>sudo apt-get install libpq5 libpq-dev</pre>
+    sudo apt-get install libpq5 libpq-dev
 

@@ -15,15 +15,15 @@ categories:
 tags: []
 ---
 I was just dealing again with "unresponsive script" errors in cucumber when I was testing if an error message appears on the page.
-As always I used 
-<pre>
-page.should have_content "Error message"
-</pre>
+As always I used
+
+    page.should have_content "Error message"
+
 and then Firefox got unresponsive and threw the error. I've even upped the default waiting time in the FF preferences (user.js), max_wait_timeout. However didn't work for me either.
 
 I now found a fix for this in using a different selector. I am going for XPath now and all is working fine.
-<pre>
-page.should have_xpath("//*[text()='#{text}']", :visible => true)
-</pre>
+
+    page.should have_xpath("//*[text()='#{text}']", :visible => true)
+
 
 Wonder if I should default to XPath.

@@ -45,12 +45,12 @@
                 <h3 class="widget-title">Blog</h3>
 
                 <ul class="icons-ul lates-blog-post">
-                    {% for post in site.posts %}
+                    {% for post in site.posts limit:3 %}
                         <li>
                             <i class="icon-li icon-chevron-right"></i><a href="{{ post.url }}">{{ post.title }}</a>
                           <p>{{ post.excerpt_short }}</p>
                         </li>
-                      {% endfor %}
+                    {% endfor %}
                     <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Lorem ipsum dolor sit amet</a><br>Aliquam nunc erat, suscipit molestie interdum eget, molestie vel eros.</li>-->
                     <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Quisque hendrerit nisl vitae magna </a><br>Aenean a sapien in magna luctus aliquet in eu purus. Sed venenatis luctus varius.</li>-->
                     <!--<li><i class="icon-li icon-chevron-right"></i><a href="#">Aenean gravida tincidunt velit nec congue </a><br>Sed a rhoncus mi. Morbi eu elit sapien, eu adipiscing nisl. Duis in turpis et mi molestie bibendum eget eget mauris.</li>-->

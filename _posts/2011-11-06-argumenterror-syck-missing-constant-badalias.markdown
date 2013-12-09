@@ -17,10 +17,8 @@ tags:
 ---
 Had this nasty bug after I had the bug below. Looking at the stack trace I saw that geokit is parsing a cookie and somehow this failed. So clearing the cache solved the bug.
 
-To get rid of the bug below, do a 
-<pre>
-gem update --system
-</pre>
-<pre>
-Uninitialized constant Syck::Syck (NameError)
-</pre>
+To get rid of the bug below, do a
+
+    gem update --system
+
+    Uninitialized constant Syck::Syck (NameError)

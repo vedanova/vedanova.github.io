@@ -60,7 +60,7 @@ layout: default_de
             <!-- start: Tag Cloud -->
             <section class="widget">
 
-                <h3 class="widget-title">Tag Cloud</h3>
+                <h3 class="widget-title">Tags</h3>
 
                 <div class="tags">
                     <a href="#"><i class="icon-tag"></i>css</a>
@@ -75,8 +75,8 @@ layout: default_de
             <!-- start: popular posts-->
             <section class="widget popular-posts">
 
-                            <h3 class="widget-title">Popular Posts</h3>
-                {% for post in site.posts %}
+                            <h3 class="widget-title">Related Posts</h3>
+                {% for post in site.related_posts limit:5 %}
                             <div class="widget-inner">
                                 <div class="media">
                                     <div class="media-body">

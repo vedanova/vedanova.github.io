@@ -16,14 +16,14 @@ tags:
 - 1.9.3
 ---
 Probably anyone who has tried to debug on Ruby 1.9.3 has started to google how to fix the error it is causing.
-<pre>
-/ruby_debug.so: undefined symbol: ruby_current_thread
-</pre>
-I once again did it today and came again to the same solution as I already did 2 times before. It is always the same. Go download 3 unofficially release ruby-debug and linecache gems. Thats mainly because the maintainer hasn't updated the gems for the last 2!! years. 
-<br>
+
+    /ruby_debug.so: undefined symbol: ruby_current_thread
+
+I once again did it today and came again to the same solution as I already did 2 times before. It is always the same. Go download 3 unofficially release ruby-debug and linecache gems. Thats mainly because the maintainer hasn't updated the gems for the last 2!! years.
+
 Today however I found a new gem that is a fork and fixes all the issues and you can just install it without having the hassle of downloading and installing it manually.
 Just install the new gem 'debugger'
-<pre>
-gem install debugger
-</pre>
+
+    gem install debugger
+
 The github repository is <a href="https://github.com/cldwalker/debugger">here</a>

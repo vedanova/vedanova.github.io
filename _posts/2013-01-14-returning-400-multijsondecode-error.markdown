@@ -24,6 +24,7 @@ Here's my gist:
 <script src="https://gist.github.com/4529619.js"></script>
 
 Add it to your Rails app
+
     # application.rb
     config.middleware.insert_before ActionDispatch::ParamsParser, 'ParamsParserRescue'
 

@@ -16,8 +16,8 @@ tags: []
 ---
 Just had to expire a cached page from within a model, because I have a delayed_job running that updates my model and therefore I need to expire the cached page I generated from within the controller. Its actually pretty simple, but you still need to know what to call.
 
-<pre>
-ActionController::Base.expire_page(path)
-</pre>
+
+    ActionController::Base.expire_page(path)
+
 The path can be a named route or you can build it as simple string.
 

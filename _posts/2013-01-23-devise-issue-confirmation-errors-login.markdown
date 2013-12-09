@@ -13,6 +13,6 @@ categories:
 - rails
 tags: []
 ---
-Just opened up an issue pointing out a bug that is related to a devise change allowing either to use a login or user name. If you try to resend the confirmation message and a user is alread confirmed the user did not see the error message. 
+Just opened up an issue pointing out a bug that is related to a devise change allowing either to use a login or user name. If you try to resend the confirmation message and a user is alread confirmed the user did not see the error message.
 
 <a href="https://github.com/plataformatec/devise/issues/2236">Issue on github</a>
