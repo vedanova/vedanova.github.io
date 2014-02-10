@@ -42,14 +42,19 @@ We first (and at the moment still) were limiting the user when they entered thei
 After a bit of searching on Rubygems.org I decided to go with permalink_fu, I think originally by famous Technoweenie, but forked it from someone called <a href="http://github.com/goncalossilva">goncalossilva</a>.
 
 Permalink_Fu is really easy to set up, first install it:
+
 <pre><code>./script/plugin install http://svn.techno-weenie.net/projects/plugins/permalink_fu/
 </code></pre>
+
 Next create a migration to add the permalink column:
+
 <pre><code>./script/generate migration add_permalink_to_track
 </code></pre>
+
 The migration looks sth like this.
-<pre><code>add_column :tracks, :permalink, :string
-</code></pre>
+
+<pre><code>add_column :tracks, :permalink, :string</code></pre>
+
 Now for the model code simply add following. Using scope you tell that a permalink needs to be unique within a bundle but can be identical within different bundles. Permalink has built in support for adding a number like "Austria-2010-1" to handle this.
 
 <pre><code>has_permalink [:name], :scope =&gt; :bundle_id</code></pre>

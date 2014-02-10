@@ -16,6 +16,7 @@ tags: []
 If you start a fresh Rails project make sure you use <a href="http://railsapps.github.com/rails-composer/">Rails Comoser</a> it just makes your live a lot easier. A complete setup in a matter of a minute.
 
 A basic setup I choose when I start working on a project:
+
 <ul>
 	<li>Devise</li>
 	<li>Rspec</li>

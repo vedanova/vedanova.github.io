@@ -23,12 +23,15 @@ I just came accross the Flash.now and couldn't remember when to use Flash.now.
 Simply you use
 
 Flash for redirecting:
+
 <pre>flash[:notice] = 'You successfully signed up'</pre>
 
 and Flash.now for rendering immediatly
+
 <pre>flash.now[:notice] = 'You successfully signed up'</pre>
 
 Since Rails 2.3 you can also use the default flash options :alert, :notice and :flash direct inside redirect_to
+
 <pre>
 redirect_to post_url(@post), :alert => "Watch it, mister!"
 redirect_to post_url(@post), :status=> :found, :notice => "Pay attention to the road"

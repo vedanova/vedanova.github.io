@@ -24,12 +24,14 @@ So, for all developers, I think we can just ignore all versions below 2.1, its l
 For the devices I am quite surprised that the Samsung Galaxy Tab is on 2nd place, past the Galaxy S. <strong>Galaxy S</strong> has a 31.5% lead to the uprunner HTC Desire. I was sure the Galaxy will be on top, but such a lead is quite surprising.
 
 The manufacturers comparison:
+
 <ul>
 	<li>Samsung: 59.3%</li>
 	<li>HTC: 24.3%</li>
 	<li>Motorola: 2.3%</li>
 	<li>SE: 4%</li>
 </ul>
+
 Will be interesting how this is gonna change over the next couple of months.
 
 <img title="Android Devices in Austria" src="/images/devices.png" alt=""  style="margin-right: 50px;" />
