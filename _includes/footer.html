@@ -51,7 +51,7 @@
                 <h3 class="widget-title">Blog</h3>
 
                 <ul class="icons-ul lates-blog-post">
-                    {% for post in site.posts %}
+                    {% for post in site.posts limit:3  %}
                     <li>
                         <i class="icon-li icon-chevron-right"></i><a href="{{ post.url }}">{{ post.title }}</a>
 
