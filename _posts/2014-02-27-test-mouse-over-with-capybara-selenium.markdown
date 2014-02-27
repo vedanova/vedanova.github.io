@@ -11,6 +11,7 @@ tags:
 - rails
 - capybara
 - selenium
+excerpt_short: Testing on mouse over with selenium
 ---
 
 Once again I had to test a mouse interaction and see if the tooltip shows up. Here's the code for capybara and selenium.
