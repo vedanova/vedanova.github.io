@@ -10,7 +10,7 @@ categories:
 tags:
 - ruby
 - crate
-excerpt_short: User Crate as database replacement inside Rails
+excerpt_short: Use Crate as database replacement inside Rails
 ---
 
 The work on providing a way to expand the Ruby ecosystem for [Crate](http://www.crate.io) continues. After starting the
