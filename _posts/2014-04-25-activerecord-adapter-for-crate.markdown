@@ -13,7 +13,7 @@ tags:
 excerpt_short: Use Crate as database replacement inside Rails
 ---
 
-The work on providing a way to expand the Ruby ecosystem for [Crate](http://www.crate.io) continues. After starting the
+The work to expand the Ruby ecosystem for [Crate](http://www.crate.io) continues. After starting the
 at the mountain hackathon I've continued to work on providing a Rails adapter for it.
 
 Developing the basic driver was mostly straight forward, the abstract adapter Rails provides makes it pretty easy to implement
