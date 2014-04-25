@@ -21,7 +21,7 @@ a new driver. The only things I've struggled with, was an issue where I couldn't
 some real headaches until I reached out to the Crate guys to find out that Crate is _eventually consistent_, meaning that
 a table refreshes after 1000ms and a new record can only be found by the primary key before the refresh.
 
-# Installation
+## Installation
 
 I haven't released a gem yet, as there are still things lacking, like updating nested arrays. I also need to implement
 a proper hash mappings. Like always these things might be already fixed when you read this.
@@ -30,7 +30,7 @@ So to install it in your Rails (or other framework) project simply add the follo
 
     gem 'activerecord-crate-adapter', github: "crate/activerecord-crate-adapter"
 
-# Usage
+## Usage
 
 Just update your Rails database.yml
 
@@ -54,6 +54,6 @@ SecureRandom.uuid.
 
     end
 
-# Contributing
+## Contributing
 
 Feel free to submit pull requests or log issues on Github. I try to implement it when I have time.
