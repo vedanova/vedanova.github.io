@@ -101,4 +101,5 @@ DEPENDENCIES
   github-pages!
   guard
   guard-livereload
+  kramdown
   sass
