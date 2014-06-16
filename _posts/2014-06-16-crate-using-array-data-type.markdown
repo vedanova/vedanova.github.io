@@ -3,7 +3,11 @@ layout: post
 title:  "Crate with Rails - Array data type"
 date:   2013-12-02 20:30
 categories: projects
-tags: osm open-data
+categories:
+- tech
+tags:
+- ruby
+- crate
 published: true
 excerpt_short: Crate Rails with array columns
 author: Christoph Klocker
