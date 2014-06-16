@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Crate with Rails - Array data type"
-date:   2013-12-02 20:30
+date:   2014-06-16 22:30
 categories: projects
 categories:
 - tech
