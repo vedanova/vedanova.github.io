@@ -19,10 +19,9 @@ Leider sind die Daten oft "schlecht" aufbereitet, bzw sind diese zum Teil gar ni
 oder werden über ein Uralt-System (Cognos) zur Verfügung gestellt, d.h. es ist nicht einfach die Daten, ohne größeren Aufwand,
 automatisiert weiter zu verarbeiten.
 
-Hier heißt es wohl, man muss froh sein, dass die Daten bereitgestellt werden und mehr nicht. Andere Bundesländer wie Wien
-und Oberösterreich im Gegensatz, veranstalten auch gleich einen Entwicklerwettbewerb um anzuregen die Daten zu verwenden.
-Leider wird die Softwareentwicklung in Vorarlberg aber noch Stiefmütterlich bis gar nicht gefördert. Hoffen wir es ändert
-sich bald.
+Hier fehlt es wohl noch an einer Open Government Strategie um die Daten in eine Entwicklerfreundliche Struktur zu bringen.
+Andere Bundesländer wie [Wien](https://open.wien.at/site/open-data/) und [Linz](http://data.linz.gv.at/) machen es vor. Hoffen wir es ändert sich bald sodass engagierte Entwickler
+auf diesen Daten innovative Applikationen bauen können.
 
 Nichtsdestotrotz habe ich Schlussendlich einen Datensatz gefunden, den ich auf eine Open Street Map Karte projezieren konnte, und
 zwar die Einnahmen und Ausgaben der Vorarlberger Gemeinden. Auch hier zu bemängeln, der Datensatz enthält nur die Daten für
