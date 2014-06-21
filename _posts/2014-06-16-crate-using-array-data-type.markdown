@@ -25,10 +25,11 @@ you can save your tag array straight to it.
 
 # How to use it?
 
-Migrations now support it by passing "array: true"
+Migrations now support it by using t.array and passing array_type
 
-     t.string :tags, array: true
-     t.integer :votes, array: true
+     t.array :tags, array_type: :string
+     t.array :votes, array_type: :integer
+     t.array :bool_arr, array_type: :boolean
      
 Creating an object is as simply as
 
@@ -37,4 +38,5 @@ Creating an object is as simply as
 ... and querying for it
 
     post = Post.where("'hot' = ANY (tags)")    
+    
 
