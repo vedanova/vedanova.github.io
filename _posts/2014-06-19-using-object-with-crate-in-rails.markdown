@@ -61,7 +61,7 @@ Note: I do not plan to support nested objects inside objects.
 
 #### Migrations support for objects
 
-In the migrations you can create an object and specify the object schema behaviour (strict|dynamic|ignored) and it's schema.
+In the migrations you can create an object and specify the object schema behaviour, either strict, dynamic or ignored and it's schema.
     
     t.object :address, object_schema_behaviour: :strict,
                        object_schema: {street: :string, city: :string, phones: {array: :string}, zip: :integer}
