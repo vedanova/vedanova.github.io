@@ -9,6 +9,7 @@ categories:
 - tech
 tags:
 - ruby
+- rails
 - crate
 excerpt_short: Use Crate as database replacement inside Rails
 ---
@@ -44,7 +45,7 @@ SecureRandom.uuid.
 
     class Post < ActiveRecord::Base
 
-      before_validation :set_id
+      before_validation :set_id, on: :create
 
       private
 

@@ -2,11 +2,12 @@
 layout: post
 title:  "Crate with Rails - Object data type"
 date:   2014-06-22 22:41
-categories: projects
 categories:
 - tech
+- open source
 tags:
 - ruby
+- rails
 - crate
 published: true
 excerpt_short: Using Crate objects with Rails
