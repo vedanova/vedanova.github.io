@@ -30,9 +30,6 @@ bash script in a terminal.
 
     bash -c "$(curl -L try.crate.io)"
    
-_For this tutorial you need at least version 0.39.0!_ as it comes with enhancements for crating Arrays and Objects. At the time I was writing this 0.39.0 was 
-only available as test release
-
 After downloading and unpacking it, simply start it
 
     # ./bin/crate
