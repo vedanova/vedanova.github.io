@@ -3,3 +3,5 @@ _site
 .rvmrc
 .sass-cache
 .idea/**
+.ruby-version
+.ruby-gemset
