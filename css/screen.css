@@ -14752,14 +14752,14 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   background: url('/images/flags-s8b66397cd9.png') no-repeat;
 }
 
-/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p550@vedanova/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../.rvm/gems/ruby-2.1.0@vedanova/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .flags-at {
   background-position: 0 -11px;
   height: 11px;
   width: 16px;
 }
 
-/* line 60, ../../../../.rvm/gems/ruby-1.9.3-p550@vedanova/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 60, ../../../../.rvm/gems/ruby-2.1.0@vedanova/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .flags-gb {
   background-position: 0 0;
   height: 11px;
@@ -14795,4 +14795,19 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 31, ../sass/screen.sass */
 #footer .social li {
   padding: 0 3px;
+}
+
+/* line 35, ../sass/screen.sass */
+#references .well {
+  text-align: center;
+  background-color: #98c2ee;
+}
+/* line 38, ../sass/screen.sass */
+#references img {
+  margin-right: 30px;
+  height: 50px;
+}
+/* line 39, ../sass/screen.sass */
+#references img:last-child {
+  margin-right: 0px;
 }
