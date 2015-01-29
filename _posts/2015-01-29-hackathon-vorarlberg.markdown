@@ -29,10 +29,16 @@ ich dann auch [Johannes](http://www.joemoe.at) kennen, der inzwischen auch ein r
 ist und es kam die Idee auf einen Hackathon zu organisieren. Auf der Suche nach Mitorganisatoren zeigte sich auch gleich
 [Guntram](http://www.starsmedia.com/) von der Idee begeistert und nun sind wir mitten in der Planung des Hackathons.
 
-Unser erstes Ziel mit dem Hackathon ist es die Vorarlberger Entwicklerszene besser zu vernetzen, egal ob Web-, Software- oder
+Ziel des Hackathon ist vorrangig die Vorarlberger Entwicklerszene besser zu vernetzen, egal ob Web-, Software- oder
 Hardwareentwickler. Der Name viel dann auf "Umma Hüsla Hackathon", umma hüsla heißt soviel wie "herum arbeiten, herum probieren
 etwas machen". Mit Plattformen wie dem Raspberry Pi, Arduino und [Spark](Spark.io) verschwinden die Grenzen ja mehr und
 mehr, wir hoffen deshalb auch auf einige Hardware Entwickler vor Ort zu haben.
+
+Es wäre nicht das erste Mal, dass bei einem Hackathon eine neues Startup entsteht und auch dies ist möchten wir mit dem
+ Hackathon fördern. Vielleicht gibt es ja den einen oder anderen Nicht-Entwickler der eine Idee hat und auf dem Hackathon
+ den einen oder anderen kennenlernt mit dem er die Idee umsetzen kann. Bei der Anmeldung kann man auch auswählen ob man mit anderen Entwickler zusammenarbeiten
+ möchte, wir versuchen dann zu vermitteln. Als ich letzes Jahr einen Mitgründer für ein Startup suchte, hab ich selbst
+ erfahren wie schwer es ist jemanden zu finden. Vielleicht gelingt es ja diesmal beim Event.
 
 Erfreulicher Weise war die erste Resonanz auf unseren Hackathon groß, bei der Usergroup zeigten sich alle interessiert,
 wir hoffen deshalb auf zahlreiche Teilnehmer.
