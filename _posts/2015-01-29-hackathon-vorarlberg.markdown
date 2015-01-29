@@ -40,7 +40,7 @@ Es wäre nicht das erste Mal, dass bei einem Hackathon eine neues Startup entste
  möchte, wir versuchen dann zu vermitteln. Als ich letzes Jahr einen Mitgründer für ein Startup suchte, hab ich selbst
  erfahren wie schwer es ist jemanden zu finden. Vielleicht gelingt es ja diesmal beim Event.
 
-Erfreulicher Weise war die erste Resonanz auf unseren Hackathon groß, bei der Usergroup zeigten sich alle interessiert,
+Erfreulicher Weise war die erste Resonanz auf unseren Hackathon groß, bei der Usergroup zeigten sich alle interessiert und
 wir hoffen deshalb auf zahlreiche Teilnehmer.
 
 Auch von Seiten der vorarlberger Unternehmen ist die Unterstützung riesig, schon nach kurzer Zeit konnten wir die ersten
