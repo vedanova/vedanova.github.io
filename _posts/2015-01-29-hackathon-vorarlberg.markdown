@@ -30,7 +30,7 @@ ist und es kam die Idee auf einen Hackathon zu organisieren. Auf der Suche nach 
 [Guntram](http://www.starsmedia.com/) von der Idee begeistert und nun sind wir mitten in der Planung des Hackathons.
 
 Ziel des Hackathon ist vorrangig die Vorarlberger Entwicklerszene besser zu vernetzen, egal ob Web-, Software- oder
-Hardwareentwickler. Der Name viel dann auf "Umma Hüsla Hackathon", umma hüsla heißt soviel wie "herum arbeiten, herum probieren
+Hardwareentwickler. Der Name viel dann auf "Umma Hüsla Hackathon", umma hüsla heißt soviel wie "herum arbeiten, herum probieren,
 etwas machen". Mit Plattformen wie dem Raspberry Pi, Arduino und [Spark](Spark.io) verschwinden die Grenzen ja mehr und
 mehr, wir hoffen deshalb auch auf einige Hardware Entwickler vor Ort zu haben.
 
