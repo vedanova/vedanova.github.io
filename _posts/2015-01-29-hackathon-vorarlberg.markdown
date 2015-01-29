@@ -43,7 +43,7 @@ Auch von Seiten der vorarlberger Unternehmen ist die Unterstützung riesig, scho
 Der Umma Hüsla Hackathon startet am 20.02.2015 14:00 und endet am 21.02.2015 mit einer Abschlusspräsentation um 18:00
  mit anschließender Party.
 
-Alle Details gibts auf unserer [Webseite](http://hackathon.vlbgwebdev.at/), anmelden kann man sich unter [hier](https://docs.google.com/forms/d/1-3Rf8tEUj-RGXgjtvXjrMgPf0u_6Z5z4eVA1ALKGwcs/viewform).
+Alle Details gibts auf unserer [Webseite](http://hackathon.vlbgwebdev.at/), anmelden kann man sich [hier](https://docs.google.com/forms/d/1-3Rf8tEUj-RGXgjtvXjrMgPf0u_6Z5z4eVA1ALKGwcs/viewform).
 Natürlich sind wir auch auf Twitter [@ummahusla](https://twitter.com/ummahusla) und [Facebook](https://www.facebook.com/events/1531634897113432/)
 
 Bei Fragen dazu natürlich kann man uns über [team[at]hackathon.vlbgwebdev.at](team[at]hackathon.vlbgwebdev.at) erreichen oder auch gerne
