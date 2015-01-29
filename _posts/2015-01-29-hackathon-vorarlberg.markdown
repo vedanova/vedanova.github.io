@@ -25,7 +25,7 @@ auch gleich den ersten Vortrag zu [SASS/SCSS](https://speakerdeck.com/vedanova/s
 aktive Usergroup und meist um die 15 Entwickler die vor Ort sind.
 
 Durch meinen Arbeitsplatz im [Campus Coworking](http://www.prisma-zentrum.com/initiativen/agile-work/coworking/) lernte
-ich dann auch dann [Johannes](http://www.joemoe.at) kennen, der inzwischen auch ein regelmäßiger Besucher der Usergroup
+ich dann auch [Johannes](http://www.joemoe.at) kennen, der inzwischen auch ein regelmäßiger Besucher der Usergroup
 ist und es kam die Idee auf einen Hackathon zu organisieren. Auf der Suche nach Mitorganisatoren zeigte sich auch gleich
 (Guntram)[http://www.starsmedia.com/) von der Idee begeistert und nun sind wir mitten in der Planung des Hackathons.
 
