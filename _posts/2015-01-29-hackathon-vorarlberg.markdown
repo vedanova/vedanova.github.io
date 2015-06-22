@@ -19,7 +19,7 @@ oder [Docker](http://www.docker.com) werden nicht nur kurz ausprobiert sondern g
 ich, bei dem Startup bei dem ich beschäftigt war, eine hochskalierbare Webapplikation in der [Amazon Cloud](http://aws.amazon.com/de/)
 entwickelt.
 
-Umso mehr freute ich mich, als vor 1 Jahr Daniel Rotter und Thomas Schedler auch in Vorarlberg die Webentwickler-Usergroup
+Umso mehr freute ich mich, als vor 1 Jahr [Daniel Rotter](https://twitter.com/danrot90) und [Thomas Schedler]() auch in Vorarlberg die Webentwickler-Usergroup
 [VlbgWebdev](http://vlbgwebdev.at) ins Leben gerufen haben. Um die Initiative tatkräftig zu unterstützen habe ich dann
 auch gleich den ersten Vortrag zu [SASS/SCSS](https://speakerdeck.com/vedanova/sass-compass-spriting-introduction) gehalten. Jetzt nach einem Jahr haben wir eine kleine
 aktive Usergroup und meist um die 15 Entwickler die vor Ort sind.
